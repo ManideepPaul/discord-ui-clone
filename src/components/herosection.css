@@ -1,0 +1,20 @@
+.heroContainer {
+    height: 74vh;
+    position: relative;
+    width: 100%;
+}
+
+.heroContainer img {
+    position: absolute;
+    bottom: 0;
+}
+
+.right {
+    right: -140px;
+    width: 620px;
+}
+
+.left {
+    left: -140px;
+    width: 620px;
+}

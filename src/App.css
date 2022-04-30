@@ -25,9 +25,7 @@ body {
 	color: #ffffff;
 }
 
-.heroContainer {
-	padding: 10px 100px;
-	background-color: #5865f2;
-	height: 74vh;
+.mainContainer {
+	background-color: #404eed;
 }
 
