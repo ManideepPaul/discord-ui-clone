@@ -1,0 +1,17 @@
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navContainer a {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+
+.navContainer button {
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+}
