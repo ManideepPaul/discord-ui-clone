@@ -9,6 +9,10 @@
     bottom: 0;
 }
 
+.heroContainer .center {
+    bottom: 0;
+}
+
 .right {
     right: -140px;
     width: 620px;

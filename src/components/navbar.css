@@ -3,16 +3,19 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 100px;
+    z-index: 1;
 }
 
 .navContainer a {
     text-decoration: none;
     color: white;
     padding: 0 10px;
+    z-index: 10;
 }
 
 .navContainer button {
     padding: 8px 15px;
     border-radius: 20px;
     border: none;
+    z-index: 1;
 }
