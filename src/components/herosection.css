@@ -1,24 +1,75 @@
 .heroContainer {
-    height: 74vh;
+    height: 626px;
     position: relative;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    overflow-x: hidden;
+    background: url('../assets/center_bg_landing_header.svg') no-repeat left bottom/cover;
 }
 
-.heroContainer img {
+
+
+.heroContainer .right {
     position: absolute;
+    left: 940px;
+    width: 650px;
     bottom: 0;
+    
 }
 
-.heroContainer .center {
+.heroContainer .left {
+    position: absolute;
+    right: 940px;
+    width: 650px;
     bottom: 0;
+
 }
 
-.right {
-    right: -140px;
-    width: 620px;
+.heroContainer .heroHeading {
+    font-size: 64px;
+    z-index: 2;
+    padding-bottom: 40px;
+    font-weight: 900;
+    color: #ffffff;
 }
 
-.left {
-    left: -140px;
-    width: 620px;
+.heroContainer p {
+    font-size: medium;
+    z-index: 2;
+}
+
+.heroContainer .divButton {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 25px;
+}
+
+.heroContainer button {
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 40px;
+    border-style: none;
+    font-weight: 600;
+    z-index: 3;
+}
+
+.white {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white img{
+    width: 22px;
+}
+
+.black {
+    background-color: black;
+    color: #ffffff;
 }
