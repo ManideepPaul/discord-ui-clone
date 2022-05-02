@@ -13,7 +13,7 @@ const NavBar = (props) => {
                 <a href="#">Blogs</a>
                 <a href="#">Careers</a>
             </div>
-            <button className="loginNav">Login</button>
+            <button className="loginNav btnHoverWhite">Login</button>
         </div>
     )
 }

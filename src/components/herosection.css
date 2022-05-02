@@ -63,13 +63,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 8px;
 }
 
 .white img{
     width: 22px;
 }
 
+.white img:hover{
+    fill: #404eed;
+}
+
 .black {
     background-color: black;
     color: #ffffff;
 }
+

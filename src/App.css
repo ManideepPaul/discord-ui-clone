@@ -29,6 +29,12 @@ body {
 	background-color: #404eed;
 }
 
+.btnHoverWhite:hover {
+	cursor: pointer;
+    box-shadow: 0 5px 10px 5px rgb(61, 61, 248) ;
+    color: #404eed;
+}
+
 /* Three Section */
 
 .threeSection {

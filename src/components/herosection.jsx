@@ -12,7 +12,7 @@ const HeroSection = (props) => {
             <p className="header2 heroDesc">Where just you and a handful of friends can spend time together. A place that makes it easy</p>
             <p className="header2 heroDesc">to talk every day and hang out more often.</p>
             <div className="divButton">
-                <button className='white'>
+                <button className='white btnHoverWhite'>
                     <img src={props.download} alt="" className="heroDownload" />
                     Download for Mac</button>
                 <button className='black'>Open Discord in your browser</button>
