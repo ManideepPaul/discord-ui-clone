@@ -29,3 +29,31 @@ body {
 	background-color: #404eed;
 }
 
+/* Three Section */
+
+.threeSection {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 80px;
+    overflow-x: hidden;
+}
+
+.threeSection .threeHeading {
+    font-size: 44px;
+    font-weight: 650;
+    line-height: 50px;
+}
+
+.threeSection .threeDesc {
+    line-height: 28px;
+    padding-top: 20px;
+}
+
+.threeSection .threeImg {
+    max-width: 60%;
+}
+/* Three Section */
+
