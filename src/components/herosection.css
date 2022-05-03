@@ -66,16 +66,23 @@
     gap: 8px;
 }
 
-.white img{
-    width: 22px;
+.heroContainer svg{
+    fill: black;
 }
 
-.white img:hover{
+/* .heroContainer svg:hover{
     fill: #404eed;
-}
+} */
+
 
 .black {
     background-color: black;
     color: #ffffff;
+}
+
+.black:hover {
+    cursor: pointer;
+    background-color: rgb(45, 45, 45);
+    box-shadow: 0 2px 5px 2px rgb(68, 68, 68, .3) ;
 }
 

@@ -31,9 +31,10 @@ body {
 
 .btnHoverWhite:hover {
 	cursor: pointer;
-    box-shadow: 0 5px 10px 5px rgb(61, 61, 248) ;
+    box-shadow: 0 5px 10px 5px rgb(61, 61, 248, .8) ;
     color: #404eed;
 }
+
 
 /* Three Section */
 
@@ -49,7 +50,7 @@ body {
 
 .threeSection .threeHeading {
     font-size: 44px;
-    font-weight: 650;
+    font-weight: 700;
     line-height: 50px;
 }
 
