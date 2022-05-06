@@ -1,0 +1,51 @@
+.resourseContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px 20px 80px;
+    background-color: #292b2f;
+}
+
+.resourseHeading {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 40px;
+    color: #5865f2;
+}
+
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    color: #5865f2;
+}
+
+.lists a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-top: 15px;
+}
+
+.lists a:hover {
+    cursor: pointer;
+    text-decoration: underline 2px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social:hover {
+    cursor: pointer;
+}
+
+.country {
+    display: flex;
+    gap: 10px;
+    color: #ffffff;
+    margin: 20px 0;
+}
+
+.country img {
+    width: 24px;
+}
