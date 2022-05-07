@@ -1,12 +1,12 @@
 import React from "react";
 
-import NavBar from "./components/navbar";
-import HeroSection from "./components/herosection";
-import Invite from "./components/invite";
-import Hanging from "./components/hanging";
-import Fandom from "./components/fandom";
-import Chillin from "./components/chillin";
-import Resourse from "./components/resourse";
+import NavBar from "./components/landing/navbar";
+import HeroSection from "./components/landing/herosection";
+import Invite from "./components/landing/invite";
+import Hanging from "./components/landing/hanging";
+import Fandom from "./components/landing/fandom";
+import Chillin from "./components/landing/chillin";
+import Resourse from "./components/landing/resourse";
 
 import discordLogo from "../assets/discord_main_logo.svg";
 import Center_landing from "../assets/center_bg_landing_header.svg";
