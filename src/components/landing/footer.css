@@ -20,9 +20,14 @@
 .footerContainer button {
     padding: 8px 15px;
     border-radius: 20px;
-    background-color: #5865f2;
+    background-color: #404eed;
     color: #ffffff;
     font-weight: 500;
     border: none;
     z-index: 1;
+}
+
+.footerBtn:hover {
+    background-color: #5865f2;
+    cursor: pointer;
 }
