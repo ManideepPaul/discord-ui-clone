@@ -1,0 +1,28 @@
+.footerContainer {
+    background-color: #292b2f;
+    padding: 20px 80px 40px 80px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.footerContents {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px
+}
+
+.line {
+    background-color: #5865f2;
+    height: 2px;
+    width: 100%;
+}
+
+.footerContainer button {
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: #5865f2;
+    color: #ffffff;
+    font-weight: 500;
+    border: none;
+    z-index: 1;
+}

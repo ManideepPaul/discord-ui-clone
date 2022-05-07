@@ -7,6 +7,7 @@ import Hanging from "./components/landing/hanging";
 import Fandom from "./components/landing/fandom";
 import Chillin from "./components/landing/chillin";
 import Resourse from "./components/landing/resourse";
+import Footer from "./components/landing/footer";
 
 import discordLogo from "../assets/discord_main_logo.svg";
 import Center_landing from "../assets/center_bg_landing_header.svg";
@@ -17,10 +18,6 @@ import Hanging_out from "../assets/hanging_out_easy_landing.svg";
 import Fandom_logo from "../assets/fandom_landing.svg";
 import Chillin_img from "../assets/just_chiling_landing.svg";
 import USA_flag from "../assets/usa_flag.png";
-import Twitter from "../assets/twitter_icon.svg"
-import Instagram from "../assets/instagram_icon.svg"
-import Facebook from "../assets/facebook_icon.svg"
-import Youtube from "../assets/youtube_icon.svg"
 
 import "./App.css";
 
@@ -37,7 +34,8 @@ function App() {
       <Hanging img={Hanging_out} />
       <Fandom img={Fandom_logo} />
       <Chillin img={Chillin_img} />
-      <Resourse usa={USA_flag} twitter={Twitter} instagram={Instagram} facebook={Facebook} youtube={Youtube} />
+      <Resourse usa={USA_flag} />
+      <Footer data={discordLogo} />
     </div>
   );
 }
