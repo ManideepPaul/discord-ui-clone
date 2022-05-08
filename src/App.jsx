@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import NavBar from "./components/landing/navbar";
 import HeroSection from "./components/landing/herosection";
@@ -23,20 +24,27 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="mainContainer">
-      <NavBar data={discordLogo} />
-      <HeroSection
-        imgLeft={Left_landing}
-        imgCenter={Center_landing}
-        imgRight={Right_landing}
-      />
-      <Invite img={Invite_only} />
-      <Hanging img={Hanging_out} />
-      <Fandom img={Fandom_logo} />
-      <Chillin img={Chillin_img} />
-      <Resourse usa={USA_flag} />
-      <Footer data={discordLogo} />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={
+          <div className="mainContainer">
+          <NavBar data={discordLogo} />
+          <HeroSection
+            imgLeft={Left_landing}
+            imgCenter={Center_landing}
+            imgRight={Right_landing}
+          />
+          <Invite img={Invite_only} />
+          <Hanging img={Hanging_out} />
+          <Fandom img={Fandom_logo} />
+          <Chillin img={Chillin_img} />
+          <Resourse usa={USA_flag} />
+          <Footer data={discordLogo} />
+        </div>
+        } />
+        <Route path="/login" element={<h1>login</h1>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
