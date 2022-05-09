@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+// Landing Page Imports
 import NavBar from "./components/landing/navbar";
 import HeroSection from "./components/landing/herosection";
 import Invite from "./components/landing/invite";
@@ -9,6 +10,11 @@ import Fandom from "./components/landing/fandom";
 import Chillin from "./components/landing/chillin";
 import Resourse from "./components/landing/resourse";
 import Footer from "./components/landing/footer";
+// Landing Page Imports
+
+// Login Imports 
+import Login from "./components/login/login";
+// Login Imports 
 
 import discordLogo from "../assets/discord_main_logo.svg";
 import Center_landing from "../assets/center_bg_landing_header.svg";
@@ -42,7 +48,7 @@ function App() {
           <Footer data={discordLogo} />
         </div>
         } />
-        <Route path="/login" element={<h1>login</h1>} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </BrowserRouter>
   );

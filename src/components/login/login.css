@@ -1,0 +1,110 @@
+.loginContainer {
+    background: url(../assets/login_bg.svg) no-repeat Left center /cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginBox {
+    background-color: #36393f;
+    display: flex;
+    padding: 25px;
+    gap: 20px;
+    width: 700px;
+    border-radius: 5px;
+}
+
+/* FormBox  */
+
+.formBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+    padding-right: 15px;
+    font-size: 14px;
+    color: #b9bbbe;
+}
+
+
+.loginHeading {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.loginDesc {
+    padding-bottom: 15px;
+}
+
+
+.formBox a {
+    text-decoration: none;
+    color: #00aff4;
+}
+
+.formBox a:hover {
+    text-decoration: underline;
+}
+
+.formBox input {
+    background-color: #23272a;
+    border: none;
+    height: 35px;
+    border-radius: 3px;
+    color: #b9bbbe;
+    padding: 8px;
+    outline: none;
+}
+
+
+.formBox button {
+    background-color: #5865f2;
+    border: none;
+    height: 40px;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top:15px;
+}
+
+.formBox button:hover {
+    cursor: pointer;
+    background-color: #404eed;
+}
+
+/* FormBox  */
+
+/* QRBox  */
+
+.qrBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #b9bbbe;
+    gap: 8px;
+}
+
+.qrBox img {
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.qrHeading {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.qrBox span {
+    font-weight: 700;
+}
+
+/* QRBox  */
+
