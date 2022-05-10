@@ -1,9 +1,10 @@
 import React from "react";
 import "./login.css";
 
-const Login = () => {
+const Login = (props) => {
   return (
     <div className="loginContainer">
+      <img src={props.icon} alt=""  className="discordIcon"/>
       <div className="loginBox">
         <div className="formBox">
           <p className="loginHeading">Welcome back!</p>

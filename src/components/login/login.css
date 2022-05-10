@@ -4,6 +4,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.discordIcon {
+    position: absolute;
+    top: 25px;
+    left: 25px;
 }
 
 .loginBox {
