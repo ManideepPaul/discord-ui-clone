@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = (props) => {
   return (
@@ -7,7 +8,7 @@ const Footer = (props) => {
       <div className="line"></div>
       <div className="footerContents">
         <img src={props.data} alt="" />
-        <button className="footerBtn">Sign up</button>
+        <Link to='/register'><button className="footerBtn">Sign up</button></Link>
       </div>
     </div>
   );

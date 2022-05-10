@@ -1,0 +1,20 @@
+.registerContainer {
+    background: url(../assets/login_bg.svg) no-repeat Left center /cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+
+.registerBox {
+    background-color: #36393f;
+    padding: 25px;
+    border-radius: 5px;
+    width: 450px;
+}
+
+.registerHeading {
+    text-align: center;
+    padding-bottom: 20px;
+}
