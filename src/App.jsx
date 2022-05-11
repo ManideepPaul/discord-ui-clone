@@ -12,18 +12,19 @@ import Resourse from "./components/landing/resourse";
 import Footer from "./components/landing/footer";
 // Landing Page Imports
 
-// Login Imports 
+// Login Imports
 import Login from "./components/login/login";
-// Login Imports 
+// Login Imports
 
-// Register Imports 
+// Register Imports
 import Register from "./components/register/register";
-// Register Imports 
+// Register Imports
 
 // Dashboard Imports
 import DashBoard from "./components/dashboard/dashboard";
 // Dashboard Imports
 
+// Logos and Images
 import discordLogo from "../assets/discord_main_logo.svg";
 import Center_landing from "../assets/center_bg_landing_header.svg";
 import Left_landing from "../assets/left_bg_landing_header.svg";
@@ -40,24 +41,27 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={
-          <div className="mainContainer">
-          <NavBar data={discordLogo} />
-          <HeroSection
-            imgLeft={Left_landing}
-            imgCenter={Center_landing}
-            imgRight={Right_landing}
-          />
-          <Invite img={Invite_only} />
-          <Hanging img={Hanging_out} />
-          <Fandom img={Fandom_logo} />
-          <Chillin img={Chillin_img} />
-          <Resourse usa={USA_flag} />
-          <Footer data={discordLogo} />
-        </div>
-        } />
-        <Route path="/login" element={<Login icon={discordLogo}/>} />
-        <Route path="/register" element={<Register icon={discordLogo}/>} />
+        <Route
+          path="/"
+          element={
+            <div className="mainContainer">
+              <NavBar data={discordLogo} />
+              <HeroSection
+                imgLeft={Left_landing}
+                imgCenter={Center_landing}
+                imgRight={Right_landing}
+              />
+              <Invite img={Invite_only} />
+              <Hanging img={Hanging_out} />
+              <Fandom img={Fandom_logo} />
+              <Chillin img={Chillin_img} />
+              <Resourse usa={USA_flag} />
+              <Footer data={discordLogo} />
+            </div>
+          }
+        />
+        <Route path="/login" element={<Login icon={discordLogo} />} />
+        <Route path="/register" element={<Register icon={discordLogo} />} />
         <Route path="/dashboard" element={<DashBoard />} />
       </Routes>
     </BrowserRouter>
