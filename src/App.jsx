@@ -20,6 +20,10 @@ import Login from "./components/login/login";
 import Register from "./components/register/register";
 // Register Imports 
 
+// Dashboard Imports
+import DashBoard from "./components/dashboard/dashboard";
+// Dashboard Imports
+
 import discordLogo from "../assets/discord_main_logo.svg";
 import Center_landing from "../assets/center_bg_landing_header.svg";
 import Left_landing from "../assets/left_bg_landing_header.svg";
@@ -54,6 +58,7 @@ function App() {
         } />
         <Route path="/login" element={<Login icon={discordLogo}/>} />
         <Route path="/register" element={<Register icon={discordLogo}/>} />
+        <Route path="/dashboard" element={<DashBoard />} />
       </Routes>
     </BrowserRouter>
   );
