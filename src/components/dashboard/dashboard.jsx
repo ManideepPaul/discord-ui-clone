@@ -8,7 +8,7 @@ import "./dashboard.css";
 
 const DashBoard = () => {
   return (
-    <div className="dashbordContainer">
+    <div className="dashboardContainer">
       <LeftNav />
       <NextLeftNav />
     </div>

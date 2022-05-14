@@ -4,4 +4,29 @@
     height: 100vh;
     position: absolute;
     left: 60px;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+}
+
+.displayFlex {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.dm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    padding: 6px;
+    background-color: #23272a;
+    border-style: none;
+    outline: none;
+    color: #b9bbbe;
 }

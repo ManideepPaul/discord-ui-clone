@@ -6,7 +6,7 @@ const NextLeftNav = () => {
   return (
     <div className="nextContainer">
       <input type="text" placeholder="Find or start a conversation" />
-      <div className="friendsDiv">
+      <div className="friendsDiv displayFlex">
         <div className="friendIcon">
           <svg
             aria-hidden="false"
@@ -27,7 +27,7 @@ const NextLeftNav = () => {
         </div>
         <span className="friends">Friends</span>
       </div>
-      <div className="stageDiv">
+      <div className="stageDiv displayFlex">
         <div className="stageIcon">
           <svg
             aria-hidden="false"
@@ -46,7 +46,7 @@ const NextLeftNav = () => {
         </div>
         <span className="stage">Stage Discovery</span>
       </div>
-      <div className="nitroDiv">
+      <div className="nitroDiv displayFlex">
         <div className="nitroIcon">
           <svg aria-hidden="false" viewBox="0 0 24 24" width="24px" height="24px">
             <path
@@ -62,7 +62,7 @@ const NextLeftNav = () => {
         <img src="../assets/whitePlus.svg" alt="" />
       </div>
       <div className="dmList">
-        <svg viewBox="0 0 184 428">
+        <svg viewBox="0 0 184 428" fill="#72767d">
           <rect x="40" y="6" width="144" height="20" rx="10" />
           <circle cx="16" cy="16" r="16" />
           <rect x="40" y="50" width="144" height="20" rx="10" opacity="0.9" />
