@@ -28,9 +28,18 @@
     color: #ffffff;
 }
 
+.secOnline {
+    color: #b9bbbe;
+}
+
 .addFriends {
     color: #ffffff;
     background-color: #3ba55d;
     padding: 4px 8px;
     border-radius: 5px;
+}
+
+.secAddFriends {
+    color: #ffffff;
+    
 }

@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "./topnav.css";
 
 const TopNav = () => {
+  const [friends, setFriends] = useState("addFriends");
+  const [online, setOnline] = useState("online");
+
+  function addFriendFun() {
+    friends === "addFriends"
+      ? setFriends("secAddFriend")
+      : setFriends("addFriends");
+
+    online === 'online'
+    ? setOnline('secOnline')
+    : setOnline('online')
+  }
+
   return (
     <div className="topNavContainer">
       <div className="allContent">
@@ -26,11 +39,13 @@ const TopNav = () => {
           </div>
           <span className="friends">Friends</span>
         </div>
-        <span className="online">Online</span>
+        <span className={online}>Online</span>
         <span className="all">All</span>
         <span className="pending">Pending</span>
         <span className="blocked">Blocked</span>
-        <span className="addFriends">Add Friend</span>
+        <span className={friends} onClick={addFriendFun}>
+          Add Friend
+        </span>
       </div>
     </div>
   );
