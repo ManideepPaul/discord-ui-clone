@@ -1,0 +1,36 @@
+.topNavContainer {
+    display: flex;
+    background-color: #4f545c;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    color: #b9bbbe;
+}
+
+.allContent {
+    position: absolute;
+    left: 315px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.navFriendsDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+}
+
+.online {
+    color: #ffffff;
+}
+
+.addFriends {
+    color: #ffffff;
+    background-color: #3ba55d;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
