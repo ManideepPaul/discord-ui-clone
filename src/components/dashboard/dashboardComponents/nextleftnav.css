@@ -8,19 +8,36 @@
     display: flex;
     flex-direction: column;
     padding: 15px;
-    gap: 10px;
+    gap: 15px;
 }
 
 .displayFlex {
     display: flex;
     gap: 10px;
     align-items: center;
+    padding: 3px;
+    border-radius: 2px;
+    color: #b9bbbe;
+}
+
+.friendsDiv {
+    color: #ffffff;
+    background-color: #72767d;
 }
 
 .dm {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
+}
+.dmList {
+    width: 90%;
+    margin: 10px 0 0 10px;
+}
+
+.dm span {
+    color: #b9bbbe;
 }
 
 input {
@@ -29,4 +46,5 @@ input {
     border-style: none;
     outline: none;
     color: #b9bbbe;
+    border-radius: 2px;
 }
